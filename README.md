@@ -37,7 +37,7 @@ python3.10 setup.py develop
 ```
 pip install realesrgan
 ```
-**3.Modelni yuklab olish :
+**3.Modelni yuklab olish :**
 ```
 wget https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth -P experiments/pretrained_models
 ```
@@ -56,8 +56,8 @@ wget https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1
   ```
 2. **[ Video ni Joylang ] yozuvi chiqadi.**
 3. **Xira videoni **[ videos ]** fayliga joylang**
-4 **[ Video generatsiya boshlansinmi ? ] savoliga [ ha ] deb yozing**
-5 **Qayta ishlangan video **[ results_mp4_videos ]** faylida paydo bo'ladi.( .mp4 formatida)**
+4. **[ Video generatsiya boshlansinmi ? ] savoliga [ ha ] deb yozing**
+5. **Qayta ishlangan video **[ results_mp4_videos ]** faylida paydo bo'ladi.( .mp4 formatida)**
 
 ## Xatoliklar bilan bog'liq muammolar
 
