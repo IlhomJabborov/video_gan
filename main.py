@@ -199,10 +199,12 @@ def generate_video():
 
 print("Boshlandi ...")
 make_folder()
-print("Video Generatsiya ...")
-generate_video()
-print("Video tayyor ! [ results_mp4_videos ] faylida")
-
+print("Videoni Joylang !!!")
+command = str(input("Video generatsiya boshlansinmi ? --> "))
+if command == "ha" or command == "Ha" :
+    generate_video()
+    print("Video tayyor ! [ results_mp4_videos ] faylida")
+    
 # a = int(input("1 yozing,fayllar o'chishi uchun."))
 # if a == 1:
 #     remove_files()
